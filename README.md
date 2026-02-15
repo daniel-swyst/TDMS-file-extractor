@@ -68,15 +68,26 @@ Param1  = "TS033.TV018."
 #Param1 = "xxxxxxxxxxxx"
 
 [FilenameParser]
+
 ProductBegin = 52
+
 ProductLength = 3
+
 TBBegin = 13
+
 TBLength = 8
+
 StatusBegin = 0
+
 StatusLength = 0
 
 [LitraParser]
+
 LitraInfoBegin = 45
+
 LitraInfoLength = 8
+
 LeakageBegin = 50
+
 LeakageLength = 7
+
