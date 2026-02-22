@@ -54,40 +54,13 @@ This LabVIEW project automates the process of **reading data from TDMS files** a
 5. **Review the output**  
    - Open the generated Excel file(s) and verify that all required columns and data were correctly exported.  
 
----
+6. **TODO**
 
-RootPath = ""
+Planned improvements for the project:
 
-SavePath = ""
+   - Improve command handling to prevent crashes when no output is provided
+   - Fix issues with file search patterns based on the INI configuration
+   - Add a graphical user interface (GUI)
+   - Implement a more intuitive selection of search patterns
 
-
-[Parameters]
-
-Param1  = "TS033.TV018."
-
-#Param1 = "xxxxxxxxxxxx"
-
-[FilenameParser]
-
-ProductBegin = 52
-
-ProductLength = 3
-
-TBBegin = 13
-
-TBLength = 8
-
-StatusBegin = 0
-
-StatusLength = 0
-
-[LitraParser]
-
-LitraInfoBegin = 45
-
-LitraInfoLength = 8
-
-LeakageBegin = 50
-
-LeakageLength = 7
 
